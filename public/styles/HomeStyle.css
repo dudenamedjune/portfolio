@@ -1,0 +1,757 @@
+/*
+
+    HEY!
+    Check my new pen "Amazing Perspective Walking Background"
+    - just CSS
+    - very, very simple
+
+    http://codepen.io/tonetlds/pen/yOdZLx
+
+*/
+
+
+
+/*--------------
+    splash
+---------------*/
+
+ body {
+  /*position: relative;
+  overflow: hidden;*/
+/*  background: #111111 url(http://semantic-ui.com/images/bg-sky.jpg);*/
+  background-size: cover;
+  text-align: center;
+  padding: 0em;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 0px;
+  border-bottom: none;
+  background-color: #00B5AD;
+  background-image: -webkit-radial-gradient(farthest-corner, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.95));
+  background-image: radial-gradient(farthest-corner, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.95));
+}
+.text{
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  display: inline;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: normal;
+  height: auto;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.2) 0px 0px 10px;
+  text-transform: none;
+  width: auto;
+  z-index: 10000;
+}
+.text a{
+  color: aqua;
+  font-weight: bold;
+}
+ body .grid {
+  margin: 0em;
+  padding: 15rem 0em;
+}
+ .following.bar,
+ body {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+
+  -ms-transition: background-color 3s ease-in-out 2s;
+  -moz-transition: background-color 3s ease-in-out 2s;
+  -webkit-transition: background-color 3s ease-in-out 2s;
+  transition: background-color 3s ease-in-out 2s;
+
+  -webkit-perspective: 1000px;
+  -moz-perspective: 1000px;
+  -o-perspective: 1000px;
+  -ms-perspective: 1000px;
+  perspective: 1000px;
+}
+ .following.bar iframe.github {
+  margin-top: 0px;
+}
+.pushed body,
+.pushed .following.bar {
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+ .colored.following.bar,
+ body.colored {
+  -webkit-animation-name: colors;
+  -moz-animation-name: colors;
+  -o-animation-name: colors;
+  animation-name: colors;
+
+  -webkit-animation-delay: 0s;
+  -moz-animation-delay: 0s;
+  -ms-animation-delay: 0s;
+  -o-animation-delay: 0s;
+  animation-delay: 0s;
+
+  -webkit-animation-duration: 120s;
+  -moz-animation-duration: 120s;
+  -ms-animation-duration: 120s;
+  -o-animation-duration: 120s;
+  animation-duration: 120s;
+
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  -o-animation-fill-mode: both;
+  animation-fill-mode: both;
+
+  animation-timing-function: linear;
+  -webkit-animation-timing-function: linear;
+
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -ms-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+ body:after {
+  position: absolute;
+  z-index: 1;
+  width: 135%;
+  height: 200%;
+  top: 18%;
+  left: 0px;
+  content: '';
+  background: url(./MVC.jpg);
+
+  -moz-transform-origin: 50% 50%;
+  -o-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+
+  -webkit-animation-name: splash;
+  -moz-animation-name: splash;
+  -o-animation-name: splash;
+  animation-name: splash;
+
+  -ms-transition: opacity 3s ease-in-out, transform 5s ease-in-out;
+  -webkit-transition: opacity 3s ease-in-out, transform 5s ease-in-out;
+  -moz-transition: opacity 3s ease-in-out, transform 5s ease-in-out;
+  transition: opacity 3s ease-in-out, transform 5s ease-in-out;
+
+  opacity: 0.06;
+
+  -webkit-animation-duration: 15s;
+  -moz-animation-duration: 15s;
+  -ms-animation-duration: 15s;
+  -o-animation-duration: 15s;
+  animation-duration: 15s;
+
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  -o-animation-fill-mode: both;
+  animation-fill-mode: both;
+
+  animation-timing-function: linear;
+  -webkit-animation-timing-function: linear;
+
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -ms-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+
+  -webkit-transform: rotateX(50deg) rotateZ(0deg) rotateY(0deg) translateY(-14%) translateX(-14%) translateZ(370px);
+  -moz-transform: rotateX(50deg) rotateZ(0deg) rotateY(0deg) translateY(-14%) translateX(-14%) translateZ(370px);
+  transform: rotateX(50deg) rotateZ(0deg) rotateY(0deg) translateY(-14%) translateX(-14%) translateZ(370px);
+}
+
+ .fixed.following.bar {
+  background-image: none;
+}
+ .fixed.following.bar {
+  position: fixed;
+  top: 0px;
+  padding: 1em 0em;
+  background-color: #FFFFFF;
+}
+ .fixed.light.following.bar {
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #DDDDDD;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.04);
+}/*
+ .fixed.dark.following.bar {
+  background-color: #EDF1F2;
+  border-bottom: 1px solid #DDDDDD;
+  box-shadow: none;
+}*/
+
+/* Zoomed Out */
+ body.zoomed {
+  background-color: #444444;
+}
+ body.zoomed:before {
+  opacity: 0.1;
+  -webkit-transform: rotateX(0deg) rotateZ(0deg) rotateY(0deg) translateZ(0px);
+  -moz-transform: rotateX(0deg) rotateZ(0deg) rotateY(0deg) translateZ(0px);
+  transform: rotateX(0deg) rotateZ(0deg) rotateY(0deg) translateZ(0px);
+}
+ body.zoomed:after {
+  opacity: 0;
+  -webkit-transform: rotateX(0deg) rotateZ(0deg) rotateY(0deg) translateY(-6%) translateZ(0px);
+  -moz-transform: rotateX(0deg) rotateZ(0deg) rotateY(0deg) translateY(-6%) translateZ(0px);
+  transform: rotateX(0deg) rotateZ(0deg) rotateY(0deg) translateY(-6%) translateZ(0px);
+}
+
+@keyframes splash {
+ 0% {
+    background-position: 0% 0%;
+ }
+ 100% {
+    background-position: 0% -475px;
+ }
+
+}
+
+@-moz-keyframes splash {
+ 0% {
+   background-position: 0% 0%;
+ }
+ 100% {
+   background-position: 0% -475px;
+ }
+
+}
+
+@-webkit-keyframes splash {
+ 0% {
+   background-position: 0% 0%;
+ }
+ 100% {
+   background-position: 0% -475px;
+ }
+
+}
+
+@-ms-keyframes splash {
+ 0% {
+   background-position: 0% 0%;
+ }
+ 100% {
+  background-position: 0% -475px;
+ }
+}
+
+@-o-keyframes splash {
+ 0% {
+   background-position: 0% 0%;
+ }
+ 100% {
+   background-position: 0% -475px;
+ }
+
+}
+
+
+@keyframes colors {
+  0% {
+    background-color: #00B5AD;
+  }
+  12% {
+    background-color: #3B83C0;
+  }
+  25% {
+    background-color: #E07B53;
+  }
+  37% {
+    background-color: #D9499A;
+  }
+  50% {
+    background-color: #564F8A;
+  }
+  62% {
+    background-color: #F2C61F;
+  }
+  75% {
+    background-color: #D95C5C;
+  }
+  87% {
+    background-color: #5BBD72;
+  }
+  100% {
+    background-color: #F2C61F;
+  }
+}
+
+@-moz-keyframes colors {
+  0% {
+    background-color: #00B5AD;
+  }
+  12% {
+    background-color: #3B83C0;
+  }
+  25% {
+    background-color: #E07B53;
+  }
+  37% {
+    background-color: #D9499A;
+  }
+  50% {
+    background-color: #564F8A;
+  }
+  62% {
+    background-color: #F2C61F;
+  }
+  75% {
+    background-color: #D95C5C;
+  }
+  87% {
+    background-color: #5BBD72;
+  }
+  100% {
+    background-color: #F2C61F;
+  }
+}
+
+@-webkit-keyframes colors {
+  0% {
+    background-color: #00B5AD;
+  }
+  12% {
+    background-color: #3B83C0;
+  }
+  25% {
+    background-color: #E07B53;
+  }
+  37% {
+    background-color: #D9499A;
+  }
+  50% {
+    background-color: #564F8A;
+  }
+  62% {
+    background-color: #F2C61F;
+  }
+  75% {
+    background-color: #D95C5C;
+  }
+  87% {
+    background-color: #5BBD72;
+  }
+  100% {
+    background-color: #F2C61F;
+  }
+}
+
+@-ms-keyframes colors {
+  0% {
+    background-color: #00B5AD;
+  }
+  12% {
+    background-color: #3B83C0;
+  }
+  25% {
+    background-color: #E07B53;
+  }
+  37% {
+    background-color: #D9499A;
+  }
+  50% {
+    background-color: #564F8A;
+  }
+  62% {
+    background-color: #F2C61F;
+  }
+  75% {
+    background-color: #D95C5C;
+  }
+  87% {
+    background-color: #5BBD72;
+  }
+  100% {
+    background-color: #F2C61F;
+  }
+}
+@-o-keyframes colors {
+  0% {
+    background-color: #00B5AD;
+  }
+  12% {
+    background-color: #3B83C0;
+  }
+  25% {
+    background-color: #E07B53;
+  }
+  37% {
+    background-color: #D9499A;
+  }
+  50% {
+    background-color: #564F8A;
+  }
+  62% {
+    background-color: #F2C61F;
+  }
+  75% {
+    background-color: #D95C5C;
+  }
+  87% {
+    background-color: #5BBD72;
+  }
+  100% {
+    background-color: #F2C61F;
+  }
+}
+
+ .animated.following.bar.stopped:after,
+ body.stopped:after {
+  -webkit-animation-name: none;
+  -moz-animation-name: none;
+  -o-animation-name: none;
+  animation-name: none;
+}
+
+
+ body.segment .typed-cursor {
+  position: relative;
+  top: -0.05em;
+  left: -0.25em;
+  opacity: 1;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
+}
+@keyframes blink {
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+@-webkit-keyframes blink {
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+@-moz-keyframes blink {
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+
+ .vertical.segment {
+  box-shadow: none;
+}
+
+ body.segment h1 {
+  font-size: 3em;
+  color: rgba(255, 255, 255, 0.5);
+  line-height: 1.2;
+  margin: 0px 0px 0px;
+  padding-bottom: 0px;
+  -moz-perspective: 500px;
+  -webkit-perspective: 500px;
+  perspective: 500px;
+  -moz-transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+ body.segment h1 > .library {
+  visibility: hidden;
+  display: block;
+  font-size: 1.75em;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+ body.segment h1 b {
+  display: inline-block;
+  font-weight: 300;
+  color: #FFFFFF;
+}
+ body.segment h1 .text {
+  display: inline-block;
+  font-weight: 300;
+  margin-left: -0.4em;
+}
+ body h2 {
+  font-weight: normal;
+  margin: 0px 0 16px 0px;
+  font-size: 1.75em;
+  border-bottom: none;
+  line-height: 1;
+}
+ body p {
+  font-size: 1.5em;
+  margin: 1em 0em 1.5em;
+  padding: 0px;
+}
+ .ui.header {
+  font-weight: normal;
+}
+
+ .introduction {
+  position: relative;
+  clear: both;
+  display: block;
+  text-align: center;
+}
+ .introduction .buttons {
+  margin-top: 3em;
+}
+
+
+ .advertisement {
+  display: none !important;
+  padding-left: 0;
+  position: absolute;
+  left: auto;
+  right: 6em;
+  top: 50%;
+  transform: translateY(-50%);
+  vertical-align: top;
+}
+ .fixed.launch.button {
+  display: none;
+  top: 100px;
+}
+ .main.menu {
+  top: 0px;
+}
+ pre.console {
+  height: 120px;
+}
+
+
+
+
+/*CSS for animated Header */
+
+html, body {
+  height: 100%;
+}
+
+.cursor {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: white;
+  font: 100 4rem "Avenir Next", Arial, sans-serif;
+  line-height: 1.4;
+  text-align: center;
+  white-space: nowrap;
+}
+.cursor .type {
+  position: relative;
+}
+.cursor .type:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 106%;
+  -webkit-animation: highlight .5s 3s ease forwards, remove .2s 3.5s ease forwards;
+          animation: highlight .5s 3s ease forwards, remove .2s 3.5s ease forwards;
+}
+.cursor .type:after {
+  content: '';
+  position: absolute;
+  top: 15%;
+  left: -4%;
+  height: 60%;
+  width: 1px;
+  background: white;
+  -webkit-animation: pulse 1s ease infinite, type 1.3s ease forwards, delete 1.3s 3.5s ease forwards;
+          animation: pulse 1s ease infinite, type 1.3s ease forwards, delete 1.3s 3.5s ease forwards;
+}
+.cursor .type span {
+  position: relative;
+  font-weight: 500;
+  letter-spacing: -.1em;
+  opacity: 0;
+}
+.cursor .type span:nth-of-type(1) {
+  -webkit-animation: showme 100ms 150ms ease forwards, highlightcolor 0.5s 3s ease forwards;
+          animation: showme 100ms 150ms ease forwards, highlightcolor 0.5s 3s ease forwards;
+}
+.cursor .type span:nth-of-type(2) {
+  -webkit-animation: showme 100ms 300ms ease forwards, highlightcolor 0.5s 3s ease forwards;
+          animation: showme 100ms 300ms ease forwards, highlightcolor 0.5s 3s ease forwards;
+}
+.cursor .type span:nth-of-type(3) {
+  -webkit-animation: showme 100ms 450ms ease forwards, highlightcolor 0.5s 3s ease forwards;
+          animation: showme 100ms 450ms ease forwards, highlightcolor 0.5s 3s ease forwards;
+}
+.cursor .type span:nth-of-type(4) {
+  -webkit-animation: showme 100ms 600ms ease forwards, highlightcolor 0.5s 3s ease forwards;
+          animation: showme 100ms 600ms ease forwards, highlightcolor 0.5s 3s ease forwards;
+}
+.cursor .type span:nth-of-type(5) {
+  -webkit-animation: showme 100ms 750ms ease forwards, highlightcolor 0.5s 3s ease forwards;
+          animation: showme 100ms 750ms ease forwards, highlightcolor 0.5s 3s ease forwards;
+}
+.cursor .type span:nth-of-type(6) {
+  -webkit-animation: showme 100ms 900ms ease forwards, highlightcolor 0.5s 3s ease forwards;
+          animation: showme 100ms 900ms ease forwards, highlightcolor 0.5s 3s ease forwards;
+}
+.cursor .type span:nth-of-type(7) {
+  -webkit-animation: showme 100ms 1050ms ease forwards, highlightcolor 0.5s 3s ease forwards;
+          animation: showme 100ms 1050ms ease forwards, highlightcolor 0.5s 3s ease forwards;
+}
+.cursor .type span:nth-of-type(8) {
+  -webkit-animation: showme 100ms 1200ms ease forwards, highlightcolor 0.5s 3s ease forwards;
+          animation: showme 100ms 1200ms ease forwards, highlightcolor 0.5s 3s ease forwards;
+}
+.cursor .type span:nth-of-type(9) {
+  -webkit-animation: showme 100ms 1350ms ease forwards, highlightcolor 0.5s 3s ease forwards;
+          animation: showme 100ms 1350ms ease forwards, highlightcolor 0.5s 3s ease forwards;
+}
+.cursor .type span:nth-of-type(10) {
+  -webkit-animation: showme 100ms 1350ms ease forwards, highlightcolor 0.5s 3s ease forwards;
+          animation: showme 100ms 1350ms ease forwards, highlightcolor 0.5s 3s ease forwards;
+}
+
+@-webkit-keyframes showme {
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes showme {
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes pulse {
+  40% {
+    opacity: 0;
+  }
+  50%, 100% {
+    opacity: 1;
+  }
+}
+@keyframes pulse {
+  40% {
+    opacity: 0;
+  }
+  50%, 100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes type {
+  0%,    12% {
+    left: -4%;
+  }
+  12.5%, 24% {
+    left: 20%;
+  }
+  25%,   37% {
+    left: 35%;
+  }
+  37.5%, 49% {
+    left: 52%;
+  }
+  50%,   62% {
+    left: 64%;
+  }
+  62.5%, 74% {
+    left: 70%;
+  }
+  75%,   87% {
+    left: 80%;
+  }
+  87.5%, 99% {
+    left: 94%;
+  }
+  100% {
+    left: 108%;
+  }
+}
+@keyframes type {
+  0%,    12% {
+    left: -4%;
+  }
+  12.5%, 24% {
+    left: 20%;
+  }
+  25%,   37% {
+    left: 35%;
+  }
+  37.5%, 49% {
+    left: 52%;
+  }
+  50%,   62% {
+    left: 64%;
+  }
+  62.5%, 74% {
+    left: 70%;
+  }
+  75%,   87% {
+    left: 80%;
+  }
+  87.5%, 99% {
+    left: 94%;
+  }
+  100% {
+    left: 108%;
+  }
+}
+@-webkit-keyframes highlight {
+  100% {
+    background: white;
+    color: #FF4136;
+  }
+}
+@keyframes highlight {
+  100% {
+    background: white;
+    color: #FF4136;
+  }
+}
+@-webkit-keyframes highlightcolor {
+  to {
+    color: #FF4136;
+  }
+}
+@keyframes highlightcolor {
+  to {
+    color: #FF4136;
+  }
+}
+@-webkit-keyframes delete {
+  to {
+    left: -4%;
+  }
+}
+@keyframes delete {
+  to {
+    left: -4%;
+  }
+}
+@-webkit-keyframes remove {
+  to {
+    opacity: 0;
+  }
+}
+@keyframes remove {
+  to {
+    opacity: 0;
+  }
+}
