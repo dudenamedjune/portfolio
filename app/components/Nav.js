@@ -1,24 +1,22 @@
-var React = require('react');
+import React from "react"
+import { Link } from 'react-router';
 
-var Nav = React.createClass({
-    handleClick: function() {},
-    render: function() {
+export default class Nav extends React.Component{
+    render(){
         return (
             <ul className="nav nav-tabs">
                 <li role="presentation" className="active">
-                    <a href="#/">Home</a>
+                    <Link to="/">Home</Link>
                 </li>
                 <li role="presentation">
-                    <a href="#/projects">Projects</a>
+                    <Link to="/projects">Projects</Link>
                 </li>
                 <li role="presentation">
-                    <a href="#/aboutMe">About Me</a>
+                    <Link to="/aboutMe">About Me </Link>
                 </li>
             </ul>
 
         );
     }
 
-});
-
-module.exports = Nav;
+}

@@ -1,12 +1,12 @@
 //include Dependencies
-var React = require("react");
-var ReactDOM = require("react-dom");
-var Home = require("./components/Home.js");
+import React from "react"
+import ReactDOM from "react-dom"
 
+import routes from "./config/Routes"
 
 
 
 
 
 ReactDOM.render(
-<Home />, document.getElementById('app'));
+routes, document.getElementById('app'));

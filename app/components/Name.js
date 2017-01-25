@@ -1,8 +1,9 @@
-var React = require('react');
+import React from "react"
+import { Link } from 'react-router';
 
-var Name = React.createClass({
-    render: function() {
-      var sentence = "Hi, my name's June Lara, and I'm a Full Stack ";
+export default class Name extends React.Component{
+    render() {
+      let sentence = "Hi, my name's June Lara, and I'm a Full Stack ";
         return (
             <header className='main'>
                 <h1 className='cursor'>
@@ -23,6 +24,4 @@ var Name = React.createClass({
 
         );
     }
-});
-
-module.exports = Name;
+}

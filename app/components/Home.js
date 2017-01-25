@@ -1,13 +1,14 @@
-var Name = require("./Name");
-var Nav = require("./Nav");
+import Name from "./Name"
+import Nav from "./Nav"
 //include react
-var React = require("react");
+import React from "react"
+import { Link } from 'react-router';
 
 //create home page component
 //will contain background
 
-var Home = React.createClass({
-    render: function() {
+export default class Home extends React.Component{
+  render(){
         return (
           <div>
             <Nav />
@@ -26,6 +27,4 @@ var Home = React.createClass({
         );
     }
 
-});
-
-module.exports = Home;
+}
