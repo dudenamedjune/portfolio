@@ -1,24 +1,9 @@
-/*
 
-    HEY!
-    Check my new pen "Amazing Perspective Walking Background"
-    - just CSS
-    - very, very simple
-
-    http://codepen.io/tonetlds/pen/yOdZLx
-
-*/
-
-
-
-/*--------------
-    splash
----------------*/
 
  body {
   /*position: relative;
   overflow: hidden;*/
-/*  background: #111111 url(http://semantic-ui.com/images/bg-sky.jpg);*/
+  /*background: url(./MVC.jpg);*/
   background-size: cover;
   text-align: center;
   padding: 0em;

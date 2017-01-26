@@ -17,7 +17,7 @@ export default class Home extends React.Component{
                 <div className="ui page grid">
                     <div className="column">
                         <div className="introduction">
-                            <Name />
+                            {this.props.children}
                             <div className="ui hidden divider"></div>
                         </div>
                     </div>
