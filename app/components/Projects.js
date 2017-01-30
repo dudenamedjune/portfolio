@@ -31,17 +31,17 @@ export default class Projects extends React.Component {
         return (
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-12 padd" >
+                    <div className="col-xs-12 padd" >
                         <ProjectCard title={uGate.title} summary={uGate.summary} git={uGate.gitHub} tech={uGate.tech} created={uGate.created} img={uGate.img}/>
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-lg-12 padd " >
+                    <div className="col-xs-12 padd " >
                         <ProjectCard title={yumYum.title} summary={yumYum.summary} git={yumYum.gitHub} tech={yumYum.tech} created={yumYum.created} img={yumYum.img}/>
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-lg-12 padd " >
+                    <div className="col-xs-12 padd " >
                         <ProjectCard title={typsyWeather.title} summary={typsyWeather.summary} git={typsyWeather.gitHub} tech={typsyWeather.tech} created={typsyWeather.created} img={typsyWeather.img}/>
                     </div>
                 </div>

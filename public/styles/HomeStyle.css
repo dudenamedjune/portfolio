@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
 .padd{
   padding-top: 10%;
 }
@@ -24,13 +26,20 @@
   max-height: 100%;
 }
 #proPic{
-
+max-height: 100%;
+max-width: 100%;
 border-radius: 25%;
 opacity: .8;
 }
+p{
 
+  color: white;
+  font-size: 100%;
+  font-weight: 800;
+}
 
  body {
+   font-family: 'Raleway', sans-serif;
   /*position: relative;
   overflow: hidden;*/
 
@@ -75,6 +84,7 @@ body:after{
 
 
 /*CSS for animated Header */
+
 
 html, body {
   height: 100%;

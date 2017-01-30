@@ -10,15 +10,20 @@ export default class Name extends React.Component {
 
         return (
             <div className="container-fluid">
-                <div className="row padd" >
+                <div className="row padd">
                     <div className="col-xs-4">
-                        <img  className="img-responsive" id="proPic" src="./proPic.jpg" />
+                        <img className="img-responsive" id="proPic" src="./proPic.jpg"/>
 
                     </div>
                     <div className="col-xs-1"></div>
                     <div className="col-xs-3">
-                      <p> Well since you made it this far I can only assume that you would lik e to know a little more about this dudenamedjune(also my online psudo name).</p>
-                      <p> I am a junior software engineer, full stack developer, really what ever fancy title is included with the set of skills Liam neeson, only wishes to wield. I began learning html and css when I was a junior in highschool in my web development elective, but UX design was not the path that really woke me up to the world of programming/computer science. Alan Turing was the man responsible for obtaining my intrest, although I am not near the level of mathmatical ingenious as the man mentioned, I still wrote a paper over his theory "On Computable Numbers" at a history level. </p>
+                        <p>
+                            Well, since you made it this far, I can only assume that you would like to learn more about the dudenamedjune.</p>
+                        <p>
+                            My real name is June Lara and my life for the past 850ish hours have been nonstop programmatic. I hope to dedicate many thousands hours more to this awesome community and into creating new technology for better world. I am a junior software engineer, a full stack developer - basically whatever fancy title best describes the skill set Liam Neeson only could wish to wield. My first encounter with the temptress that is computer science was as a student in my high school web development elective, learning HTML and CSS. However, UX design is not solely responsible for luring me into the depths of programming - for that, I thank Alan Turing and his remarkable breakthrough about computable numbers. My favorite actives involve writing code, studying the tech world, tinkering with my Raspberry Pi and patiently waiting for season 3 of Rick and Morty.
+                        </p>
+                        <p>
+                            Contact me via LinkedIn if you are interested in poaching me from my entrepreneurial projects.</p>
                     </div>
                     <div className="col-xs-1"></div>
                     <div className="col-xs-3">
