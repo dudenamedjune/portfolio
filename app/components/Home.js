@@ -1,30 +1,25 @@
-import Name from "./Name"
-import Nav from "./Nav"
+import Name from "./homeChildren/Name"
+import Nav from "./homeChildren/Nav"
 //include react
 import React from "react"
-import { Link } from 'react-router';
+import {Link} from 'react-router';
 
 //create home page component
 //will contain background
 
-export default class Home extends React.Component{
-  render(){
+export default class Home extends React.Component {
+    render() {
         return (
-          <div>
-            <Nav />
-            <div className="masthead segment">
 
-                <div className="ui page grid">
-                    <div className="column">
-                        <div className="introduction">
-                            {this.props.children}
-                            <div className="ui hidden divider"></div>
-                        </div>
-                    </div>
+            <div className="container-fluid">
+                <Nav/>
+                <div className="container-fluid">
+
+                    {this.props.children}
+
                 </div>
             </div>
-          </div>
+
         );
     }
-
 }

@@ -5,7 +5,9 @@ export default class Name extends React.Component{
     render() {
       let sentence = "Hi, my name's June Lara, and I'm a Full Stack ";
         return (
-            <header className='main'>
+
+          <div className="row">
+            <div >
                 <h1 className='cursor'>
                     {sentence}
                     <span className='type'>
@@ -20,7 +22,13 @@ export default class Name extends React.Component{
                         <span>r</span>
                     </span>
                 </h1>
-            </header>
+            </div>
+
+          </div>
+
+
+
+
 
         );
     }
