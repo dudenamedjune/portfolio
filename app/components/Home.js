@@ -13,7 +13,7 @@ export default class Home extends React.Component {
 
             <div className="container-fluid">
                 <Nav/>
-                <div className="container-fluid">
+                <div className="container">
 
                     {this.props.children}
 
