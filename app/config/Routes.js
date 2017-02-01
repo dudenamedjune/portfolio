@@ -18,5 +18,5 @@ module.exports = (
         <IndexRoute component={Name} />
 
       </Route>
-      </Router>
+    </Router>
 );
