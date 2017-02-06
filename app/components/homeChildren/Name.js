@@ -7,7 +7,7 @@ export default class Name extends React.Component{
         return (
 
           <div className="row">
-            <div >
+            <div className="">
                 <h1 className='cursor'>
                     {sentence}
                     <span className='type'>

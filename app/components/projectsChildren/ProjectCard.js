@@ -1,39 +1,34 @@
 import React from 'react'
 
-
 export default class ProjectCard extends React.Component {
-handleDrag(){
-  console.log("hi");
-}
+    handleDrag() {
+        console.log("hi");
+    }
 
     render() {
 
         return (
-            <div className="media panelBorder ">
-                <div className="media-left">
-                    <a href={this.props.git} >
-                      <img onMouseEnter={this.handleDrag} className="media-object btn projImg img-responsive"  src={this.props.img} alt="image of project"/>
+            <div className="grid">
+                <figure className="effect-sarah">
 
-                    </a>
-                </div>
-                <div className="media-body leftPadd">
-                    <h2 className="media-heading">{this.props.title}</h2>
-                    <ul>
-                      <li>
-                      <h3 className="left">{this.props.summary}</h3><br /><br />
+                    <img onMouseEnter={this.handleDrag} src={this.props.img} alt="image of project"/>
 
-                      </li>
-                      <li >
-                      <h3 className="left">{this.props.tech}</h3><br /><br />
+                    <figcaption>
+                        <h2 >
+                            <span>{this.props.title}</span>
+                        </h2>
 
-                      </li>
-                      <li ><h3 className="left">{this.props.created}</h3><br /><br />
+                        <p className="left">{this.props.summary}</p>
 
-                      </li>
-                    </ul>
+                      <p className="left">{this.props.tech}</p><br/><br/>
 
-                </div>
+                      <p className="left">{this.props.created}</p><br/><br/>
+
+                        <a href={this.props.git}></a>
+                    </figcaption>
+                </figure>
             </div>
+
         );
     }
 }
