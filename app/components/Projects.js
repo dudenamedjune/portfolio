@@ -7,7 +7,7 @@ export default class Projects extends React.Component {
         const uGate = {
             title: "UGate",
             summary: "A cross currency Gateway built upon Ripple's API  (A cross currency Consensus Validation ledger, which in turn lowers  the total cost of settlement by enabling banks to transact directly, instantly and with certainty of settlement).",
-            tech: "React, Express, MongoDB, Stripe, Plaid, Chai, Mocha, axios, authy, bcrypt, JWT, nodemailer, Bcrypt",
+            tech: "React, Express, MongoDB, Stripe, Plaid, Chai, Mocha, axios, authy, ripple-lib, JWT, nodemailer, Bcrypt",
             created: "Wrote the MVC with complete Architectural mapping of relationships and developed alongside team.",
             gitHub: "https://github.com/dudenamedjune",
             img: "./ugate.jpeg"
