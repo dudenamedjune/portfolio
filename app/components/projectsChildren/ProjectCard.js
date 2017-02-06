@@ -17,13 +17,19 @@ export default class ProjectCard extends React.Component {
                         <h2 >
                             <span>{this.props.title}</span>
                         </h2>
+                        <ul>
+                            <li>
+                                <p className="left">{this.props.summary}</p>
+                            </li>
+                            <li>
+                                <p className="left">{this.props.tech}</p><br/><br/></li>
+                            <li>
+                                <p className="left">{this.props.created}</p><br/><br/></li>
+                            <li>
 
-                        <p className="left">{this.props.summary}</p>
+                            </li>
 
-                      <p className="left">{this.props.tech}</p><br/><br/>
-
-                      <p className="left">{this.props.created}</p><br/><br/>
-
+                        </ul>
                         <a href={this.props.git}></a>
                     </figcaption>
                 </figure>
