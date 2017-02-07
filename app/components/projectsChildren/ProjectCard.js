@@ -22,11 +22,10 @@ export default class ProjectCard extends React.Component {
                                 <p className="left">{this.props.summary}</p>
                             </li>
                             <li>
-                                <p className="left">{this.props.tech}</p><br/><br/></li>
+                                <p className="left">{this.props.tech}</p><br/><br/>
+                            </li>
                             <li>
-                                <p className="left">{this.props.created}</p><br/><br/></li>
-                            <li>
-
+                                <p className="left">{this.props.created}</p><br/><br/>
                             </li>
 
                         </ul>
