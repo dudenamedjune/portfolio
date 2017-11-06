@@ -25,7 +25,7 @@ export default class Blog extends Component{
               </button>
             </div>
             <div className="modal-body">
-              <iframe style={{height: "100vh", width: "100%"}} src="https://drive.google.com/open?id=1bHBJvin4KQa2str_WMNcsOptrYRChWZiIk2XCQeGaHw"/>
+              <embed style={{height: "100vh", width: "100%"}} src="./serverless.pdf"/>
             </div>
             <div className="modal-footer">
               <button type="button" className="btn btn-secondary" data-dismiss="modal">Close</button>
