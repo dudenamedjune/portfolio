@@ -37,17 +37,16 @@ export default class Blog extends Component{
   }
   render(){
     return(
+
       <div className="container  padd" >
-      <div className="card-deck">
-        <div className="card text-white bg-dark mb-3" style={{width: "20rem"}}>
-          <div className="card-body">
-            <h4 className="card-title">Horribly Awesome Nomenclature: Serverless</h4>
-            <p className="card-text">What is serverless?  What's an API Gateway? What's Lambda? </p>
-            <button href="#" className="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Go somewhere</button>
-            {this.serverlessModal()}
-          </div>
+        <div className="list-group">
+          <a href="#" data-toggle="modal" data-target="#exampleModal" className="list-group-item">
+            <h4 className="list-group-item-heading">Horribly Awesome Nomenclature: Serverless</h4>
+            <p className="list-group-item-text" style={{color: "black"}}>What is serverless?  What's an API Gateway? What's Lambda? </p>
+
+          </a>
         </div>
-      </div>
+          {this.serverlessModal()}
     </div>
       )
   }
