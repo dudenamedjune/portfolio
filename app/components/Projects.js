@@ -2,8 +2,15 @@ import React from 'react'
 import ProjectCard from './projectsChildren/ProjectCard'
 
 export default class Projects extends React.Component {
-
     render() {
+        const Argo = {
+          title: "Actuarial-Dashboard-for-Argo-Group",
+          summary: "A React dashboard hosted on a serverless AWS archeticure. Enables actuaries access to all public companies SEC docs via elastic search. Along with the SEC docs, data virtualization for risk following the actuarial model, SCA docs, and News.",
+          tech: "React, react-router, DynamoDB, Lambda, API gateway, Cognito, S3",
+          created: "Lead for MVP MERN and then moved to production AWS",
+          gitHub: "https://github.com/dudenamedjune/janus",
+          img: "./janus.jpg"
+        }
         const uGate = {
             title: "UGate",
             summary: "A cross currency Gateway built upon Ripple's API  (A cross currency Consensus Validation ledger, which in turn lowers  the total cost of settlement by enabling banks to transact directly, instantly and with certainty of settlement).",
@@ -28,8 +35,14 @@ export default class Projects extends React.Component {
             gitHub: "https://github.com/RJRowland93/Drink_Weather",
             img: "./typsyWeather.jpg"
         };
+
         return (
             <div className="container">
+              <div className="row">
+                  <div className="col-xs-12 padd" >
+                      <ProjectCard title={Argo.title} summary={Argo.summary} git={Argo.gitHub} tech={Argo.tech} created={Argo.created} img={Argo.img}/>
+                  </div>
+              </div>
                 <div className="row">
                     <div className="col-xs-12 padd" >
                         <ProjectCard title={uGate.title} summary={uGate.summary} git={uGate.gitHub} tech={uGate.tech} created={uGate.created} img={uGate.img}/>

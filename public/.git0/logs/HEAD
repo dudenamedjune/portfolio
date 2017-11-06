@@ -1,0 +1,39 @@
+0000000000000000000000000000000000000000 9a202b3dc7ec8e9a0ac2e909f20ee969b7b617e3 june.k.lara@gmail.com <june.k.lara@gmail.com> 1508360534 -0500	commit (initial): init
+9a202b3dc7ec8e9a0ac2e909f20ee969b7b617e3 115cec5f0da6a964b8effbc4c76df7f85fb82285 june.k.lara@gmail.com <june.k.lara@gmail.com> 1508555373 -0500	commit: react-router v4, CSS grid starting at the router level and nested to content
+115cec5f0da6a964b8effbc4c76df7f85fb82285 115cec5f0da6a964b8effbc4c76df7f85fb82285 june.k.lara@gmail.com <june.k.lara@gmail.com> 1508561395 -0500	reset: moving to HEAD
+115cec5f0da6a964b8effbc4c76df7f85fb82285 115cec5f0da6a964b8effbc4c76df7f85fb82285 june.k.lara@gmail.com <june.k.lara@gmail.com> 1508768192 -0500	checkout: moving from master to dev
+115cec5f0da6a964b8effbc4c76df7f85fb82285 115cec5f0da6a964b8effbc4c76df7f85fb82285 june.k.lara@gmail.com <june.k.lara@gmail.com> 1508776945 -0500	reset: moving to HEAD
+115cec5f0da6a964b8effbc4c76df7f85fb82285 115cec5f0da6a964b8effbc4c76df7f85fb82285 june.k.lara@gmail.com <june.k.lara@gmail.com> 1508786648 -0500	reset: moving to HEAD
+115cec5f0da6a964b8effbc4c76df7f85fb82285 8ffc44be3c6c0c08596f8c33ecea351fb125e391 june.k.lara@gmail.com <june.k.lara@gmail.com> 1508813184 -0500	commit: neet to fix composition in Site component
+8ffc44be3c6c0c08596f8c33ecea351fb125e391 e8af390412baddeefb388a183b17e71f3ea774ec june.k.lara@gmail.com <june.k.lara@gmail.com> 1508817631 -0500	commit: css grid working, FireFox has a layout view = Awesome
+e8af390412baddeefb388a183b17e71f3ea774ec e8af390412baddeefb388a183b17e71f3ea774ec june.k.lara@gmail.com <june.k.lara@gmail.com> 1508818517 -0500	reset: moving to HEAD
+e8af390412baddeefb388a183b17e71f3ea774ec fc063a0cbf6c0341b9954f22a2baa776f2564d3e june.k.lara@gmail.com <june.k.lara@gmail.com> 1508881507 -0500	commit: Re constructed Sign up component and added Dashboard with track, component swithing login and signup in main
+fc063a0cbf6c0341b9954f22a2baa776f2564d3e 115cec5f0da6a964b8effbc4c76df7f85fb82285 june.k.lara@gmail.com <june.k.lara@gmail.com> 1508881525 -0500	checkout: moving from dev to master
+115cec5f0da6a964b8effbc4c76df7f85fb82285 fc063a0cbf6c0341b9954f22a2baa776f2564d3e june.k.lara@gmail.com <june.k.lara@gmail.com> 1508881528 -0500	merge dev: Fast-forward
+fc063a0cbf6c0341b9954f22a2baa776f2564d3e aa38d5fc789da129e38ddcf1c12164c1846e0f82 june.k.lara@gmail.com <june.k.lara@gmail.com> 1508881748 -0500	commit: changed src for logo
+aa38d5fc789da129e38ddcf1c12164c1846e0f82 fc063a0cbf6c0341b9954f22a2baa776f2564d3e june.k.lara@gmail.com <june.k.lara@gmail.com> 1508943778 -0500	checkout: moving from master to dev
+fc063a0cbf6c0341b9954f22a2baa776f2564d3e 362b24ab960d35084879318af31af7edf9879b5e june.k.lara@gmail.com <june.k.lara@gmail.com> 1509038998 -0500	commit: Track page almost finished
+362b24ab960d35084879318af31af7edf9879b5e aa38d5fc789da129e38ddcf1c12164c1846e0f82 june.k.lara@gmail.com <june.k.lara@gmail.com> 1509039122 -0500	checkout: moving from dev to master
+aa38d5fc789da129e38ddcf1c12164c1846e0f82 13f307c875dd7524bc0b6d35bd64c307bc5c9b66 june.k.lara@gmail.com <june.k.lara@gmail.com> 1509039156 -0500	commit: dev merge
+13f307c875dd7524bc0b6d35bd64c307bc5c9b66 13f307c875dd7524bc0b6d35bd64c307bc5c9b66 june.k.lara@gmail.com <june.k.lara@gmail.com> 1509135948 -0500	reset: moving to HEAD
+13f307c875dd7524bc0b6d35bd64c307bc5c9b66 362b24ab960d35084879318af31af7edf9879b5e june.k.lara@gmail.com <june.k.lara@gmail.com> 1509135954 -0500	checkout: moving from master to dev
+362b24ab960d35084879318af31af7edf9879b5e fc063a0cbf6c0341b9954f22a2baa776f2564d3e june.k.lara@gmail.com <june.k.lara@gmail.com> 1509136077 -0500	reset: moving to fc063a0cbf6c0341b9954f22a2baa776f2564d3e
+fc063a0cbf6c0341b9954f22a2baa776f2564d3e fc063a0cbf6c0341b9954f22a2baa776f2564d3e june.k.lara@gmail.com <june.k.lara@gmail.com> 1509136121 -0500	reset: moving to HEAD
+fc063a0cbf6c0341b9954f22a2baa776f2564d3e 13f307c875dd7524bc0b6d35bd64c307bc5c9b66 june.k.lara@gmail.com <june.k.lara@gmail.com> 1509136189 -0500	checkout: moving from dev to master
+13f307c875dd7524bc0b6d35bd64c307bc5c9b66 fc063a0cbf6c0341b9954f22a2baa776f2564d3e june.k.lara@gmail.com <june.k.lara@gmail.com> 1509136242 -0500	checkout: moving from master to dev
+fc063a0cbf6c0341b9954f22a2baa776f2564d3e 13f307c875dd7524bc0b6d35bd64c307bc5c9b66 june.k.lara@gmail.com <june.k.lara@gmail.com> 1509136246 -0500	merge master: Fast-forward
+13f307c875dd7524bc0b6d35bd64c307bc5c9b66 13f307c875dd7524bc0b6d35bd64c307bc5c9b66 june.k.lara@gmail.com <june.k.lara@gmail.com> 1509136349 -0500	checkout: moving from dev to master
+13f307c875dd7524bc0b6d35bd64c307bc5c9b66 13f307c875dd7524bc0b6d35bd64c307bc5c9b66 june.k.lara@gmail.com <june.k.lara@gmail.com> 1509136352 -0500	checkout: moving from master to dev
+13f307c875dd7524bc0b6d35bd64c307bc5c9b66 8f2a48765a43c523882dfacf727ceab6173cc93b june.k.lara@gmail.com <june.k.lara@gmail.com> 1509370133 -0500	commit: Coffee plz, monday morning push, almost complete track page
+8f2a48765a43c523882dfacf727ceab6173cc93b bdf70465675835472668981e8aa2efdae4295669 june.k.lara@gmail.com <june.k.lara@gmail.com> 1509370369 -0500	commit (merge): merge
+bdf70465675835472668981e8aa2efdae4295669 b7f2c86739071390308e4a00cf6d50909a8e99cc june.k.lara@gmail.com <june.k.lara@gmail.com> 1509370581 -0500	commit: merge
+b7f2c86739071390308e4a00cf6d50909a8e99cc 06490e6e2769417b8804caa1792960191ebbfb6e june.k.lara@gmail.com <june.k.lara@gmail.com> 1509371310 -0500	commit: partial track page added, duration component changed
+06490e6e2769417b8804caa1792960191ebbfb6e 196c5e6090e05ea7c2745e8976d2ccc58a84c872 june.k.lara@gmail.com <june.k.lara@gmail.com> 1509371879 -0500	commit: bind form and handle submit
+196c5e6090e05ea7c2745e8976d2ccc58a84c872 05ffe72269a6912365b8a3179c7233497fcd8e85 june.k.lara@gmail.com <june.k.lara@gmail.com> 1509376801 -0500	commit: fixed style and site component
+05ffe72269a6912365b8a3179c7233497fcd8e85 13f307c875dd7524bc0b6d35bd64c307bc5c9b66 june.k.lara@gmail.com <june.k.lara@gmail.com> 1509377036 -0500	checkout: moving from dev to master
+13f307c875dd7524bc0b6d35bd64c307bc5c9b66 05ffe72269a6912365b8a3179c7233497fcd8e85 june.k.lara@gmail.com <june.k.lara@gmail.com> 1509377043 -0500	merge dev: Fast-forward
+05ffe72269a6912365b8a3179c7233497fcd8e85 05ffe72269a6912365b8a3179c7233497fcd8e85 june.k.lara@gmail.com <june.k.lara@gmail.com> 1509377057 -0500	checkout: moving from master to dev
+05ffe72269a6912365b8a3179c7233497fcd8e85 cc00c893f768deb97408d2254b31e4ae5d52bfef june.k.lara@gmail.com <june.k.lara@gmail.com> 1509380678 -0500	commit: card for tracked
+cc00c893f768deb97408d2254b31e4ae5d52bfef 05ffe72269a6912365b8a3179c7233497fcd8e85 june.k.lara@gmail.com <june.k.lara@gmail.com> 1509380692 -0500	checkout: moving from dev to master
+05ffe72269a6912365b8a3179c7233497fcd8e85 cc00c893f768deb97408d2254b31e4ae5d52bfef june.k.lara@gmail.com <june.k.lara@gmail.com> 1509380722 -0500	merge dev: Fast-forward
+cc00c893f768deb97408d2254b31e4ae5d52bfef 59f84eadfc7f70a0bfa8b0205e50a66ee9dccbc0 june.k.lara@gmail.com <june.k.lara@gmail.com> 1509382256 -0500	commit: style changes to track and dynamic className to Search component

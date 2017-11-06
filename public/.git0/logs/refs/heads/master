@@ -1,0 +1,8 @@
+0000000000000000000000000000000000000000 9a202b3dc7ec8e9a0ac2e909f20ee969b7b617e3 june.k.lara@gmail.com <june.k.lara@gmail.com> 1508360534 -0500	commit (initial): init
+9a202b3dc7ec8e9a0ac2e909f20ee969b7b617e3 115cec5f0da6a964b8effbc4c76df7f85fb82285 june.k.lara@gmail.com <june.k.lara@gmail.com> 1508555373 -0500	commit: react-router v4, CSS grid starting at the router level and nested to content
+115cec5f0da6a964b8effbc4c76df7f85fb82285 fc063a0cbf6c0341b9954f22a2baa776f2564d3e june.k.lara@gmail.com <june.k.lara@gmail.com> 1508881528 -0500	merge dev: Fast-forward
+fc063a0cbf6c0341b9954f22a2baa776f2564d3e aa38d5fc789da129e38ddcf1c12164c1846e0f82 june.k.lara@gmail.com <june.k.lara@gmail.com> 1508881748 -0500	commit: changed src for logo
+aa38d5fc789da129e38ddcf1c12164c1846e0f82 13f307c875dd7524bc0b6d35bd64c307bc5c9b66 june.k.lara@gmail.com <june.k.lara@gmail.com> 1509039156 -0500	commit: dev merge
+13f307c875dd7524bc0b6d35bd64c307bc5c9b66 05ffe72269a6912365b8a3179c7233497fcd8e85 june.k.lara@gmail.com <june.k.lara@gmail.com> 1509377043 -0500	merge dev: Fast-forward
+05ffe72269a6912365b8a3179c7233497fcd8e85 cc00c893f768deb97408d2254b31e4ae5d52bfef june.k.lara@gmail.com <june.k.lara@gmail.com> 1509380722 -0500	merge dev: Fast-forward
+cc00c893f768deb97408d2254b31e4ae5d52bfef 59f84eadfc7f70a0bfa8b0205e50a66ee9dccbc0 june.k.lara@gmail.com <june.k.lara@gmail.com> 1509382256 -0500	commit: style changes to track and dynamic className to Search component
