@@ -12,11 +12,11 @@ export default class Name extends React.Component {
             <div>
                 <div  className="row padd">
                     <div className="cos-xs-12 col-lg-4">
-                        <img className="img-responsive" id="proPic" src="./proPic.jpg"/>
+                        <img className="img-responsive" id="proPic" src="./proPic2.jpg"/>
 
                     </div>
-                    <div className="col-lg-1"></div>
-                    <div style={{backgroundColor: "rgba(203, 204, 201, 0.3)", borderRadius: "4em"}} className="cos-xs-12 col-lg-8">
+
+                    <div style={{backgroundColor: "rgba(203, 204, 201, 0.8)", borderRadius: "4em"}} className="cos-xs-12 col-lg-8">
                       <h2>About my background:</h2>
 
                       <p className="lead" >Honestly, just thinking about the first layer of the seven-layer OSI model instantly makes me happy. It’s a simply beautiful transition from primitive living to sending pulses of electricity and now, light with fiber to bring so many life changing products to life.

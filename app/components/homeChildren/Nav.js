@@ -5,16 +5,18 @@ export default class Nav extends React.Component{
     render(){
         return (
             <ul className="nav nav-tabs">
-                <li role="presentation" className="active">
-                    <Link to="/">Home</Link>
+                <li className="nav-item" role="presentation">
+                    <Link to="/" className="nav-link">Home</Link>
                 </li>
-                <li role="presentation">
-                    <Link to="/Projects">Projects</Link>
+                <li className="nav-item" role="presentation">
+                    <Link to="/Projects" className="nav-link">Projects</Link>
                 </li>
-                <li role="presentation">
-                    <Link to="/AboutMe">About Me </Link>
+                <li className="nav-item" role="presentation">
+                    <Link to="/AboutMe" className="nav-link">About Me </Link>
                 </li>
-
+                <li  className="nav-item" role="presentation">
+                    <Link to="/Blog" className="nav-link">Blog </Link>
+                </li>
             </ul>
 
         );
