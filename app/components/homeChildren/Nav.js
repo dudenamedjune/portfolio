@@ -6,7 +6,7 @@ export default class Nav extends React.Component{
         return (
             <ul className="nav nav-tabs">
                 <li className="nav-item" role="presentation">
-                    <Link to="/" className="nav-link">Home</Link>
+                    <Link to="/" className="nav-link" >Home</Link>
                 </li>
                 <li className="nav-item" role="presentation">
                     <Link to="/Projects" className="nav-link">Projects</Link>
