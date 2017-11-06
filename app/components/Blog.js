@@ -41,7 +41,7 @@ export default class Blog extends Component{
       <div className="container  padd" >
         <div className="list-group">
           <a href="#" data-toggle="modal" data-target="#exampleModal" className="list-group-item">
-            <h4 className="list-group-item-heading">Horribly Awesome Nomenclature: Serverless</h4>
+            <h4 className="list-group-item-heading">Horribly Awesome Nomenclature: Serverless (10-26-2017)</h4>
             <p className="list-group-item-text" style={{color: "black"}}>What is serverless?  What's an API Gateway? What's Lambda? </p>
 
           </a>
