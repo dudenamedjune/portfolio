@@ -35,7 +35,7 @@ export default class Name extends React.Component {
                         <p className="lead"> grew up in a small town , Claude, TX, with a population of 1,100 people. Also I dislike like really soft things, my senses just don’t like the texture.</p>
 
                         <h2>You can become a master of a skill instantly tomorrow morning. What skill would that be and why?</h2>
-                            <p className="lead">Copious amounts of a Data Science - there are so many possibilities within the field of computer science. While attending my ReactJS meetup at Bazaarvoice, one of the speakers was a data scientist on a Full Stack team at Microsoft. They created a machine learning platform to analyze millions of messages off of social media to grab locations of refuges in Benghazi to help the UN locate terrorists without harming civilians. I would love to instantly have that skills to create humanitarian tools like that but I’ll be happy to acquire them through the years as well.</p>
+                            <p className="lead">Copious amounts of a Data Science - there are so many possibilities within the field of computer science. While attending my ReactJS meetup at Bazaarvoice, one of the speakers was a data scientist on a Full Stack team at Microsoft. They created a machine learning platform to analyze millions of messages off of social media to grab locations of refuges in Benghazi to help the UN locate terrorists without harming civilians. I would love to instantly have the skills to create humanitarian tools like that but I’ll be happy to acquire them through the years as well.</p>
 
                         <h2>If you had to be trapped in a tv show for a month, which would you choose?</h2>
 
